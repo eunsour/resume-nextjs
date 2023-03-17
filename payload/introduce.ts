@@ -5,12 +5,14 @@ const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer massa magna, feugiat commodo arcu sed, sagittis sollicitudin tortor. Nullam diam ex, interdum nec lacus vel, ultrices pretium sapien. Proin bibendum non nibh eu aliquet. In sit amet arcu sed nisi tincidunt ultricies. Fusce magna tellus, egestas at pretium quis, rutrum et ante. Phasellus efficitur lectus felis, sed lacinia enim rhoncus ut. Sed id mi vitae neque aliquet porttitor. Fusce dignissim ipsum urna, at finibus lectus sodales ut. Nulla ut purus vestibulum, dapibus tellus consequat, porttitor purus. Nunc egestas tortor ut vehicula mollis.',
-    'Integer ut libero eu libero mattis rutrum at at urna. Integer non turpis ante. Suspendisse vestibulum odio id libero facilisis gravida. In ipsum est, pellentesque vestibulum tortor eu, bibendum imperdiet metus. Quisque ornare eget ex ut congue. Nam vel finibus sem. Phasellus id neque nibh. Nullam turpis velit, pharetra vitae mi non, bibendum maximus urna.',
+    'Tensorflow, PyTorch, Transformers 등을 사용하여 다양한 모델을 설계, 개발, 운영한 경험으로 유지 보수성이 높은 머신러닝 아키텍처와 디자인 패턴을 위해 고민하고 있습니다.',
+    'classification, sentence-similarity, summarization, transliteration 등 다양한 자연어 처리 태스크 수행 경험이 있습니다.',
+    '오픈소스 프로젝트에 관심이 많고, 튜토리얼 용 소스코드를 공유하는 등 다양한 방법으로 기여하기 위해 노력하고 있습니다.',
+    '항상 최신 기술과 트렌드에 대한 관심을 가지고 있으며, 지속적으로 학습하고 발전해 나가고 있습니다.',
+    '또한, 팀원과의 원활한 커뮤니케이션과 협업을 통해 프로젝트를 성공적으로 완수할 수 있는 능력을 가지고 있습니다.',
   ],
-  sign: 'Love poem',
-  // sign: packageJson.author.name,
-  // latestUpdated: '2019-07-24',
+  sign: 'Eunsoo Kang',
+  // latestUpdated: '2023-03-12',
   latestUpdated: lastestUpdatedAt,
 };
 

@@ -1,31 +1,40 @@
 import { ISkill } from '../component/skill/ISkill';
 
 const backend: ISkill.Skill = {
-  category: 'Back-end',
+  category: 'Language',
   items: [
     {
-      title: 'Node.js',
+      title: 'Python',
       level: 3,
-    },
-    {
-      title: 'AWS',
-      level: 3,
-    },
-    {
-      title: 'PHP',
-      level: 2,
     },
     {
       title: 'Java',
       level: 1,
     },
+  ],
+};
+const framework: ISkill.Skill = {
+  category: 'Framework',
+  items: [
     {
-      title: 'Python',
-      level: 1,
+      title: 'Pytorch',
+      level: 3,
     },
     {
-      title: 'C/C++',
-      level: 1,
+      title: 'Tensorflow',
+      level: 2,
+    },
+    {
+      title: 'Ray',
+      level: 3,
+    },
+    {
+      title: 'BentoML',
+      level: 2,
+    },
+    {
+      title: 'FastAPI',
+      level: 2,
     },
   ],
 };
@@ -34,43 +43,55 @@ const database: ISkill.Skill = {
   category: 'Database',
   items: [
     {
-      title: 'MySQL',
+      title: 'Elasticsearch',
       level: 3,
     },
     {
-      title: 'Oracle',
-      level: 2,
-    },
-    {
-      title: 'Redis',
-      level: 2,
-    },
-    {
       title: 'MongoDB',
+      level: 2,
+    },
+    {
+      title: 'MySQL',
+      level: 1,
+    },
+    {
+      title: 'Oracle',
       level: 1,
     },
   ],
 };
 
-const frontend: ISkill.Skill = {
-  category: 'Front-end',
+const infrastructure: ISkill.Skill = {
+  category: 'Infrastructure',
   items: [
     {
-      title: 'Next.js',
-      level: 2,
+      title: 'Docker',
+      level: 3,
     },
     {
-      title: 'React.js',
+      title: 'Airflow',
       level: 2,
     },
-    {
-      title: 'javascript',
-      level: 2,
-    },
-    {
-      title: 'HTML/CSS',
-      level: 2,
-    },
+    // {
+    //   title: 'Kubernetes',
+    //   level: 2,
+    // },
+    // {
+    //   title: 'Kubeflow',
+    //   level: 2,
+    // },
+    // {
+    //   title: 'MLflow',
+    //   level: 2,
+    // },
+    // {
+    //   title: 'Seldon-core',
+    //   level: 2,
+    // },
+    // {
+    //   title: 'Prometheus & Grafana',
+    //   level: 2,
+    // },
   ],
 };
 
@@ -84,7 +105,7 @@ const etc: ISkill.Skill = {
       title: 'Vim',
     },
     {
-      title: 'Security',
+      title: 'Git',
     },
     {
       title: 'VS Code',
@@ -95,12 +116,24 @@ const etc: ISkill.Skill = {
     {
       title: 'Confluence',
     },
+    {
+      title: 'Bitbucket',
+    },
+    {
+      title: 'Slack',
+    },
+    {
+      title: 'Notion',
+    },
+    {
+      title: 'IDEA',
+    },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, etc],
+  skills: [backend, framework, infrastructure, database, etc],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
