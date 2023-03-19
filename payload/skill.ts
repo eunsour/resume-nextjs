@@ -22,14 +22,14 @@ const framework: ISkill.Skill = {
     },
     {
       title: 'Tensorflow',
-      level: 2,
-    },
-    {
-      title: 'Ray',
       level: 3,
     },
     {
       title: 'BentoML',
+      level: 3,
+    },
+    {
+      title: 'Ray',
       level: 2,
     },
     {
@@ -105,7 +105,7 @@ const etc: ISkill.Skill = {
       title: 'Vim',
     },
     {
-      title: 'Git',
+      title: 'Git / Github',
     },
     {
       title: 'VS Code',
@@ -127,6 +127,9 @@ const etc: ISkill.Skill = {
     },
     {
       title: 'IDEA',
+    },
+    {
+      title: 'Jupyter',
     },
   ],
 };

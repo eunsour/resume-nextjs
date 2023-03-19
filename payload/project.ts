@@ -40,7 +40,7 @@ const project: IProject.Payload = {
           content: "Sentence Similarity 모델 학습",
           weight: "MEDIUM",
           descriptions: [
-            { content: '먼저 KLUE-NLI 데이터로 모델 파인 튜닝 진행' },
+            { content: 'KLUE-NLI 데이터로 모델 파인 튜닝 진행' },
             { content: 'KLUE-NLI로 학습된 모델에 위 특허 데이터로 STS 학습 수행' },
             { content: 'Sentence Transformers 라이브러리를 이용하여 모델 개발' },
             { content: 'KLUE-STS 데이터를 검증 데이터로 활용' },

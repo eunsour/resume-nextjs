@@ -17,16 +17,7 @@ const experience: IExperience.Payload = {
         '레거시 청산 및 기존 비즈니스 로직 유지보수',
         '사용자 Needs에 맞는 검색 서비스 개선과 신규 비즈니스 로직 구현'
       ],
-      skillKeywords: [
-        'Python',
-        'Java',
-        'MongoDB',
-        'ELK Stack',
-        'Airflow',
-        'Docker',
-        'Linux',
-        'GitLab',
-      ],
+      skillKeywords: ['Python', 'Java', 'MongoDB', 'ELK Stack', 'Docker', 'Airflow', 'Linux', 'GitLab'],
     },
     {
       title: '버즈니 (Buzzni)',
